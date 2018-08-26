@@ -1,3 +1,6 @@
+body {
+    height: 10000px;
+}
 * {
     margin: 0;
     padding: 0;
@@ -21,6 +24,18 @@
 
 .colored {
     color: #82ca9c;
+}
+
+.darked-colored {
+    color: #999
+}
+
+.mirror {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
 }
 /****** End global ****/
 
@@ -49,14 +64,6 @@
 
 #header .info .contact-info .mob {
     margin-right: 10px;
-}
-
-.mirror {
-    -moz-transform: scale(-1, 1);
-    -webkit-transform: scale(-1, 1);
-    -o-transform: scale(-1, 1);
-    -ms-transform: scale(-1, 1);
-    transform: scale(-1, 1);
 }
 
 /** nav **/
@@ -150,3 +157,32 @@
     padding: 15px
 }
 
+/** End Header **/
+
+/** start sec our product **/
+#main .product .sec-content {
+    padding: 120px 20px;
+}
+#main .product .sec-content .container {
+    display: flex;
+    justify-content: space-around
+}
+#main .product .sec-content .sec-cap {
+    padding-top: 75px;
+    width: 40%;
+}
+
+#main .product .sec-content .sec-cap .sec-title {
+    margin-bottom: 30px;
+    color: black;
+}
+
+#main .product .sec-content .sec-cap p {
+    margin-bottom: 15px;
+}
+
+#main .product .sec-content .sec-cap .sec-btn {
+    padding: 10px 30px;
+    border-style: none;
+    background-color: #82ca9c;
+}
