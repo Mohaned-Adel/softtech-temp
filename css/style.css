@@ -5,3 +5,48 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.inline {
+    display: inline-block;
+}
+/****** End global ****/
+
+/** start header **/
+
+#header .info {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    color: white;
+}
+
+#header .info .info-container {
+    position: relative;
+    padding: 10px;
+}
+
+#header .info  .fab {
+    margin-right: 5px
+}
+
+#header .info .contact-info {
+    position: absolute;
+    right: 0;
+}
+
+#header .info .contact-info .mob {
+    margin-right: 10px;
+}
+
+.mirror {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
