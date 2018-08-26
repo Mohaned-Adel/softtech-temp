@@ -99,3 +99,54 @@
     border-radius: 25px;
     font-size: 15px;
 }
+
+/** cover **/
+
+#header .cover {
+    background-image: url('../images/header-img.png');
+    height: auto;
+    text-align: center;
+}
+.cover .data .main-title {
+    padding-top: 100px;
+}
+.cover .data .main-title .title {
+    color: white;
+    font-size: 40px;
+    letter-spacing: 2px;
+    padding: 30px;
+}
+
+.cover .data .summery {
+    padding-bottom: 100px
+}
+
+.cover .data .summery .sum-content {
+    color: #ccc;
+    width: 60%;
+    margin: auto;
+}
+.cover .data .e-mail {
+    padding-bottom: 185px;
+}
+.cover .data .e-mail .input-placeholder {
+    width: 30%;
+    margin: auto;
+    position: relative;
+}
+
+.e-mail .input-placeholder #mail {
+    width: 100%;
+    border-style: none;
+    padding: 15px 110px 15px 10px;
+}
+
+.e-mail .input-placeholder .submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #82ca9c;
+    height: 100%;
+    padding: 15px
+}
+
