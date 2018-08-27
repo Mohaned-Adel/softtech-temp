@@ -402,3 +402,70 @@ body {
 }
 
 /** end platform **/
+
+/** start info section **/
+
+#main .info .info-cont {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.info .info-cont .info-title .info-head {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.info-title .info-text {
+    width: 50%;
+    margin: 0 auto 50px;
+}
+.info-cont .info-touch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.info-message {
+    margin-right: 10px;
+}
+.info-message,
+.info-social {
+    width: 30%
+}
+
+.info-message input,
+.info-message textarea {
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+.info-message textarea {
+    height: 150px;
+}
+
+.info-message input[type = "submit"] {
+    padding: 10px 30px;
+    border-style: none;
+    background-color: #82ca9c;
+    width: max-content;
+} 
+
+.info-cont .info-social {
+    text-align: left;
+}
+
+.info-cont .info-social .info-summery,
+.info-cont .info-social .info-address,
+.info-cont .info-social .info-mob {
+    margin-bottom: 25px
+}
+
+.info-cont .info-social i {
+    border: 2px solid;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+/** end info **/
