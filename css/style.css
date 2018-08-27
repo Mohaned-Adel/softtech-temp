@@ -186,3 +186,55 @@ body {
     border-style: none;
     background-color: #82ca9c;
 }
+/** end sec product **/
+/** start sec services **/
+
+#main .services .services-content {
+    background-color: #f9f9f9;
+    padding: 100px 0
+}
+
+.services-content .ser-title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.services-content .ser-title .title {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.services-content .ser-brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ser-brands {
+    padding: 50px 100px 0;
+}
+
+.ser-brands .ser-item {
+    width: 40%;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.ser-item .item-i {
+    margin: auto;
+    padding-right: 15px;
+}
+
+.ser-item .item-i i {
+    font-size: 50px;
+    color: #82ca9c;
+}
+
+.ser-item .item-text .text-head {
+    font-size: 20px;
+}
+
+.ser-item .item-text .text-p {
+    color: #777;
+    margin-top: 10px;
+}
