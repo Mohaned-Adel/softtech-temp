@@ -322,3 +322,15 @@ footer {background-color: #ccc}
 .div-nav .content-container .container {flex-wrap: wrap;}
 
 /** end minified **/
+
+@media (max-width: 1080px) {
+    .div-nav .nav-data {
+        display: none;
+    }
+    .plat-item {
+        width: 30%;
+    }
+    .info-message, .info-social {
+        width: 40%;
+    }
+}
