@@ -34,6 +34,12 @@
     -ms-transform: scale(-1, 1);
     transform: scale(-1, 1);
 }
+
+.btn-hovered:hover, .item-btn button:hover {
+    background-color: white !important;
+    color: #82ca9c !important;
+    border-color: #82ca9c !important;
+}
 /****** End global ****/
 
 /** start header **/
@@ -50,8 +56,22 @@
     padding: 10px;
 }
 
+#header .info .info-container .social-icons i:nth-child(1):hover {
+    color: #3b5998;
+}
+#header .info .info-container .social-icons i:nth-child(2):hover {
+    color: #1da1f2;
+}
+#header .info .info-container .social-icons i:nth-child(3):hover {
+    color: #db4437;
+}
+#header .info .info-container .social-icons i:nth-child(4):hover {
+    color: #007bb5;
+}
+
 #header .info  .fab {
-    margin-right: 5px
+    margin-right: 5px;
+    cursor: pointer;
 }
 
 #header .info .contact-info {
@@ -90,6 +110,11 @@
     display: inline;
     margin-right: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+.div-nav .nav-data li:hover {
+    color: #82ca9c;
 }
 .div-nav .nav-data li:last-child{
     margin-right: 0;
@@ -102,8 +127,14 @@
     border: 2px solid;
     border-radius: 25px;
     font-size: 15px;
+    cursor: pointer;
 }
 
+.div-nav .content-container .btn button:hover {
+    background-color: #82ca9c;
+    color: white;
+    border-color: transparent;
+}
 /** cover **/
 
 #header .cover {
@@ -151,7 +182,9 @@
     right: 0;
     background-color: #82ca9c;
     height: 100%;
-    padding: 15px
+    padding: 12px;
+    border: 2px solid transparent;
+    cursor: pointer;
 }
 
 /** End Header **/
@@ -182,6 +215,8 @@
     padding: 10px 30px;
     border-style: none;
     background-color: #82ca9c;
+    border: 2px solid transparent;
+    cursor: pointer;
 }
 /** end sec product **/
 /** start sec services **/
@@ -274,6 +309,7 @@
     position: absolute;
     left: 0;
     top: 0;
+    cursor: pointer;
 }
 
 .pack-change .community {
@@ -281,6 +317,7 @@
     right: 0;
     top: 0;
     padding: 10px;
+    cursor: pointer;
 }
 
 .pack-cat .pack-items {
@@ -326,6 +363,8 @@
     width: 100%;
     padding: 25px 0;
     background-color: #82ca9c;
+    border: 2px solid transparent;
+    cursor: pointer;
 }
 
 .pack-item .item-btn .darked-colored {
@@ -445,6 +484,8 @@
     border-style: none;
     background-color: #82ca9c;
     width: max-content;
+    border: 2px solid transparent;
+    cursor: pointer;
 } 
 
 .info-cont .info-social {
@@ -457,11 +498,36 @@
     margin-bottom: 25px
 }
 
+#main .info .info-cont .info-touch .info-social .fa-facebook-f:hover {
+    background-color: #3b5998;
+    color: white;
+    border-color: transparent;
+}
+
+#main .info .info-cont .info-touch .info-social .fa-twitter:hover {
+    background-color: #1da1f2;
+    color: white;
+    border-color: transparent
+}
+
+#main .info .info-cont .info-touch .info-social .fa-google-plus-g:hover {
+    background-color: #db4437;
+    color: white;
+    border-color: transparent
+}
+
+.info-cont .info-social i.facebook {
+    padding: 11px;
+}
+
 .info-cont .info-social i {
     border: 2px solid;
     padding: 10px;
     border-radius: 50%;
     margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 
