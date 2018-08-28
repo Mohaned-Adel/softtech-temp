@@ -72,6 +72,10 @@
 #header .info  .fab {
     margin-right: 5px;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 #header .info .contact-info {
@@ -111,6 +115,10 @@
     margin-right: 20px;
     font-weight: bold;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .div-nav .nav-data li:hover {
@@ -128,6 +136,10 @@
     border-radius: 25px;
     font-size: 15px;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .div-nav .content-container .btn button:hover {
@@ -185,6 +197,10 @@
     padding: 12px;
     border: 2px solid transparent;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 /** End Header **/
@@ -217,6 +233,11 @@
     background-color: #82ca9c;
     border: 2px solid transparent;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    
 }
 /** end sec product **/
 /** start sec services **/
@@ -365,6 +386,10 @@
     background-color: #82ca9c;
     border: 2px solid transparent;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 .pack-item .item-btn .darked-colored {
@@ -486,6 +511,10 @@
     width: max-content;
     border: 2px solid transparent;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 } 
 
 .info-cont .info-social {
@@ -528,6 +557,10 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 
 
