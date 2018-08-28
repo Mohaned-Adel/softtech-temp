@@ -203,6 +203,10 @@
     transition: all 0.3s ease-in;
 }
 
+.e-mail .input-placeholder .submit label {
+    cursor: pointer;
+}
+
 /** End Header **/
 
 /** start sec our product **/
