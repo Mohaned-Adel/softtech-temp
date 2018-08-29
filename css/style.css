@@ -120,7 +120,7 @@
 /** end sec product **/
 /** start sec services **/
 #main .services .services-content {background-color: #f9f9f9; padding: 100px 0}
-.services-content .ser-title {text-align: center; margin-bottom: 100px; }
+.services-content .ser-title {text-align: center; margin-bottom: 35px; }
 .services-content .ser-title .title {font-size: 35px; margin-bottom: 15px; }
 .ser-brands { padding: 50px 100px 0; }
 .ser-brands .ser-item {
@@ -134,7 +134,7 @@
 /** end services **/
 
 /** start section packages */
-#main .packages .pack-content {padding: 100px 0; text-align: center;}
+#main .packages .pack-content {padding-top: 100px; text-align: center;}
 .pack-content .pack-title .pack-head {font-size: 40px; margin-bottom: 15px;}
 .pack-content .pack-title .pack-text {width: 50%; margin: 0 auto 50px;}
 .pack-content .pack-cat .pack-change {
@@ -188,7 +188,7 @@
 /** end packages **/
 
 /** start section platform **/
-#main .platform .plat-cont {padding: 100px 0; text-align: center;}
+#main .platform .plat-cont {padding-top: 100px; text-align: center;}
 .platform .plat-cont .plat-title .plat-head {font-size: 40px; margin-bottom: 15px;}
 .plat-title .plat-text {width: 50%; margin: 0 auto 50px;}
 .plat-item {
@@ -248,8 +248,8 @@
 
 /** start footer **/
 footer {background-color: #ccc}
-.footer .foot-cont {padding: 100px 0;}
-.foot-cont .quick-links {width: 22%; line-height: 1.7;}
+.footer .foot-cont {padding: 100px 0; flex-wrap: wrap}
+.foot-cont .quick-links {width: 23%; line-height: 1.7;}
 .foot-cont .quick-links .foot-title {
     margin-bottom: 20px;
     font-size: 20px;
@@ -317,6 +317,7 @@ footer {background-color: #ccc}
 #main .product .sec-content .container {display: flex; justify-content: space-around}
 
 .plat-items,
+.pack-cat .pack-items,
 .info-cont .info-touch,
 .services-content .ser-brands,
 .div-nav .content-container .container {flex-wrap: wrap;}
@@ -324,13 +325,81 @@ footer {background-color: #ccc}
 /** end minified **/
 
 @media (max-width: 1080px) {
-    .div-nav .nav-data {
+    .div-nav .nav-data {display: none;}
+    .plat-item {width: 30%;}
+    .info-message, .info-social {width: 40%; }
+}
+
+@media (max-width: 900px) {
+    #main .product .sec-content {position: relative;}
+    #main .product .sec-content .sec-img {position: absolute; opacity: 0.3;}
+    #main .product .sec-content .sec-cap {
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: #333;
+    }
+    .ser-brands .ser-item {width: 90%; margin-bottom: 40px;}
+    .pack-cat .pack-items .pack-item {width: 55%; margin-bottom: 60px;}
+    .plat-item {width: 45%;}
+    .info-message, .info-social {width: 52%; margin-bottom: 25px;}
+    .foot-cont .quick-links {
+        width: 48%;
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    #header .info {display: none;}
+    .div-nav .content-container .title {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .div-nav .content-container .btn {
+        position: relative;
+        margin: auto;
+    }
+    .cover .data .e-mail {
         display: none;
     }
-    .plat-item {
-        width: 30%;
+    #main .product {
+        padding-bottom: 75px;
     }
-    .info-message, .info-social {
-        width: 40%;
+    #main .product .sec-content  {
+        padding: 0;
+    }
+    #main .product .sec-content .sec-img {
+        margin-top: 50px;
+    }
+    .info-message,
+    #main .product .sec-content .sec-img img {
+        width: 100%;
+    }
+    .ser-brands {
+        padding: 0;
+    }
+    .ser-brands .ser-item {
+        width: 90%;
+        margin-bottom: 40px;
+    }
+    .pack-cat .pack-items .pack-item {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+    .plat-item {
+        width: auto;
+        margin-bottom: 40px;
+    }
+    .plat-title .plat-text,
+    .info-title .info-text,
+    .info-social {
+        width: auto
+    }
+    .foot-cont .quick-links {
+        width: 100%;
+        text-align: center;
     }
 }
