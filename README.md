@@ -1,23 +1,32 @@
-# Soft Tech Temp
+# Soft Tech Template
+
+![HTML](https://img.shields.io/badge/HTML-v5-red)
+![CSS](https://img.shields.io/badge/CSS-v3-blue)
+
+## Preview
+you can see it from here https://first-temp.netlify.com/ 
 
 ## Overview 
 
-This is another personal project from my series Slicing PSDs into responsive UIs projects.
+This is another personal project from my series **Slicing PSDs into responsive UIs** projects.
 
-It was practising on (HTML, CSS, HTML5, CSS3, Pure Resposive concepts).
+It was practising on (HTML5, CSS3, Pure Responsive concepts).
 
-## Get it 
+## Download
 
- 1- you can see it directly from this link https://mohaned-softtech.netlify.com/
+1. Clone Project:
+    ```
+        $ git clone https://github.com/Mohaned-Adel/softtech-temp.git
+    ```
+2. open it:
+    open it with your code editor or open the index.html file.
+
+3. enjoy it: 
+    Start Hacking
+
+## Template Image
+
+<p align="center">
+    <img src="./images/template.png" alt="Template Image">
+</p>
  
- 2- or you can git the full file and open index.html file and you will be able to see the full code, you can do it through:-
- 
-   * clone it
-    
-        ```
-            git clone https://github.com/Mohaned-Adel/softtech-temp.git
-        ```
-        
-   * Download it
-    
-            download the .zip file then extract it and open the index.html file. 
